@@ -40,9 +40,16 @@
   background: black;
   color: white; }
 
+.seccion1 {
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
 .correobanner {
-  background: white;
-  color: black; }
+  background: black;
+  color: #FFF; }
 
 .boton {
   display: inline-block;

@@ -55,11 +55,24 @@
     background: black;
     color: white;
 }
+
+
+
+// SECCION 1  
+
+.seccion1{
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 // CORREO BANNER 
 
 .correobanner{
-    background: white ;
-    color: black;
+    background: black ;
+    color: #FFF;
 }
  
 // BOTONES 
