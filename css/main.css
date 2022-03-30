@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
 .barranav {
   z-index: 2; }
 
 .logombarete {
   border-radius: 50%; }
+
+.nav-item {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.2rem;
+  color: white; }
 
 .bannercerveza {
   width: 100%;
