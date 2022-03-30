@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="Cerveza,artesanal,esquina,corrientes">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Animate -->
@@ -53,20 +53,33 @@
         </nav>
         <!-- Termina barra de navegacion-->
 
-        <!-- Seccion Inicial -->
-        <section class="seccioninicial section text-center p-5">
-            <div class="container p-2">
-              <h1 class="p-5">Cerveza Mbarete</h1>
-              <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio sed quae inventore eum sint corrupti quam eveniet culpa molestiae hic, natus cupiditate nobis voluptate?</p>
-              <button type="button" class="btn btn-warning col-md-8">Warning</button>
+
+        <!-- Video Cerveza -->
+
+        <div class="bannercerveza">
+            <video autoplay muted loop src="vid/cerveza.mp4" type="video/mpr"></video>
+            <div class="contenidovideo">
+                <h1>Cerveza Mbarete</h1>
+                <P>Esquina, Corrientes</P>
             </div>
-            <img class="img-fluid d-sm-block" src="img/mainpic.jpg" alt="casa">
+        </div>
+
+
+
+        <!-- Seccion Inicial -->
+
+        <section class="seccionInicial section text-center p-5">
+            <div class="container p-2">
+              <h1 class="p-5">Contactate con nosotros</h1>
+              <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio sed quae inventore eum sint corrupti quam eveniet culpa molestiae hic, natus cupiditate nobis voluptate?</p>
+              <button type="button" class="boton col-md-8">Saber más</button>
+            </div>
           </section>
 
 
         <!-- Correo-->
 
-        <section class="shadow-lg text-center p-5">
+        <section class="correobanner shadow-lg text-center p-5">
             <h3 class="animate__animated animate__bounceIn">Dejanos tu correo</h3>
             <p>¡Recibiras las ultimas noticias y promociones!</p>
             <div class="inputcorreo">
@@ -74,7 +87,7 @@
                 <input type="email" class="form-control" placeholder="tucorreo@hotmail.com" aria-label="Dejanos tu correo..."
                   aria-describedby="button-addon2">
               </div>
-              <button type="button" class="button col-md-6"><a href="#">Enviar</a></button>
+              <button type="button" class="boton col-md-6"><a href="#">Enviar</a></button>
             </div>
         </section>
     </main>
